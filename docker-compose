@@ -2,8 +2,8 @@ version: '3.8'
 
 services:
   app:
-    image: eurekra-service:latest
-    container_name: eurekra-service
+    image: eurkera-service:latest
+    container_name: eurkera-service
     ports:
       - "8760:8760"
     environment:

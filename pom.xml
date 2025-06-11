@@ -72,12 +72,13 @@
 	</dependencyManagement>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+    <finalName>EukeraServer-0.0.1-SNAPSHOT</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 </project>
 	
