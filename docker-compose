@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  app:
+    image: eureka-service:latest
+    container_name: eurkea-service
+    ports:
+      - "8760:8760"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    restart: unless-stopped
