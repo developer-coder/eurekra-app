@@ -36,7 +36,7 @@ pipeline {
   stage('Build Docker Image') {
             steps {
                 script {
-                    bat "docker build -t demo-service ."
+                    bat "docker build -t eurkera-service ."
                 }
             }
         }
